@@ -6,20 +6,41 @@ import { StatusBar } from '@ionic-native/status-bar';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
+import { LoginPage } from '../pages/login/login';
+import { MainPage } from '../pages/main/main';
+import { TabsPage } from '../pages/tabs/tabs';
+import { FavoritesPage } from '../pages/favorites/favorites';
+import { DoctorPage } from '../pages/doctor/doctor';
+import { SpecialtiesPage } from '../pages/specialties/specialties';
+import { DoctorsPage } from '../pages/doctors/doctors'
 
 @NgModule({
   declarations: [
     MyApp,
-    HomePage
+    HomePage,
+    LoginPage,
+    MainPage,
+    TabsPage,
+    FavoritesPage,
+    DoctorPage,
+    SpecialtiesPage,
+    DoctorsPage
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp)
+    IonicModule.forRoot(MyApp, {backButtonText: ''})
   ],
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    HomePage
+    HomePage,
+    LoginPage,
+    MainPage,
+    TabsPage,
+    FavoritesPage,
+    DoctorPage,
+    SpecialtiesPage,
+    DoctorsPage
   ],
   providers: [
     StatusBar,

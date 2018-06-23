@@ -1,0 +1,22 @@
+page-main {
+
+}
+
+.squareBTN{
+  padding: 50% 0 50% 0;
+}
+.squareBTN i{
+  font-size: 40px;
+  color: color($colors, primary);
+}
+.squareBTN p{
+  color: #666;
+  font-weight: bold;
+}
+.button-inner {
+  flex-flow: column;
+}
+
+.outline{
+  border: 3px solid #333;
+}

@@ -1,3 +1,20 @@
 page-home {
 
 }
+.scroll-content{
+  background: url(../../assets/imgs/clinic1.jpg) top right fixed no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  /*background: #ffdcb9;*/
+}
+ion-footer{
+  background: none;
+  border:none;
+}
+ion-img{
+  background:none;
+}
+.ion-img{
+  background: none;
+}
