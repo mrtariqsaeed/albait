@@ -1,6 +1,6 @@
 {
-  "name": "doctors",
-  "app_id": "",
+  "name": "Nahed",
+  "app_id": "0d05b92e",
   "type": "ionic-angular",
   "integrations": {
     "cordova": {}
