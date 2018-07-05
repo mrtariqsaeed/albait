@@ -21,7 +21,7 @@ export class FavoritesPage {
   }
 
   ionViewDidLoad() {
-    this.doctors = ['Ahmed', 'Tariq', 'Essam'];
+    this.doctors = ['Ahmed Saleh', 'Tamer Ali', 'Fady Ahmed'];
     console.log('ionViewDidLoad FavoritesPage');
   }
 

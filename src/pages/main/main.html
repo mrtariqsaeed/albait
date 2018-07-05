@@ -10,48 +10,53 @@
 <ion-content padding>
   <ion-grid>
   <ion-row>
+    <ion-col col-6 *ngFor='let specialty of specialties'>
+      <button ion-button outline block class="squareBTN" text-center (click)='goSymptoms()'>
+        <br><i class="{{ specialty.icon }}"></i><br>
+        <p>{{ specialty.name }}</p>
+        SAR {{ specialty.price }}
+      </button>
+    </ion-col>
+
+
+    <!--<ion-col>
+      <button ion-button outline block class="squareBTN" text-center (click)='goSpecialties()'>
+        <br><i class="fas fa-venus"></i><br>
+        <p>Gynecology</p>
+      </button>
+    </ion-col>
+  </ion-row>
+
+  <ion-row>
     <ion-col>
       <button ion-button outline block class="squareBTN" text-center (click)='goSpecialties()'>
-        <br><i class="far fa-smile"></i><br>
-        <p>Pediatrics</p>
-      </button>
-    </ion-col>
-    <ion-col>
-      <button ion-button outline block class="squareBTN" text-center>
-        <br><i class="fas fa-venus"></i><br>
-        <p>Gynecologist</p>
-      </button>
-    </ion-col>
-  </ion-row>
-
-  <ion-row>
-    <ion-col>
-      <button ion-button outline block class="squareBTN" text-center>
         <br><i class="fas fa-user"></i><br>
-        <p>Neurologist</p>
+        <p>Neurology</p>
       </button>
     </ion-col>
     <ion-col>
-      <button ion-button outline block class="squareBTN" text-center>
+      <button ion-button outline block class="squareBTN" text-center (click)='goSpecialties()'>
         <br><i class="fas fa-heartbeat"></i><br>
-        <p>Cardiologist</p>
+        <p>Cardiology</p>
       </button>
     </ion-col>
   </ion-row>
 
   <ion-row>
     <ion-col>
-      <button ion-button outline block class="squareBTN" text-center>
+      <button ion-button outline block class="squareBTN" text-center (click)='goSpecialties()'>
         <br><i class="fas fa-leaf"></i><br>
-        <p>Oncologist</p>
+        <p>Oncology</p>
       </button>
     </ion-col>
     <ion-col>
-      <button ion-button outline block class="squareBTN" text-center>
+      <button ion-button outline block class="squareBTN" text-center (click)='goSpecialties()'>
         <br><i class="fas fa-user-md"></i><br>
         <p>Nurse</p>
       </button>
-    </ion-col>
+    </ion-col>-->
+
+
   </ion-row>
 
 

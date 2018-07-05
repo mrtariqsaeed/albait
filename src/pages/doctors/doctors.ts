@@ -19,7 +19,7 @@ export class DoctorsPage {
   doctors:string[];
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
-    this.doctors = ['Ahmed', 'Tariq', 'Essam'];
+    this.doctors = ['Ahmed Saleh', 'Tariq Saeed', 'Essam Mohamed', 'Karim Kamel', 'Tamer Ali', 'Fady Ahmed'];
     this.specialty = navParams.get('specialty');
   }
 

@@ -4,10 +4,13 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { HomePage } from '../pages/home/home';
-import { TabsPage } from '../pages/tabs/tabs';
+//import { MainPage } from '../pages/main/main';
+//import { TabsPage } from '../pages/tabs/tabs';
+//import { RequestReviewPage } from '../pages/request-review/request-review';
+//import { SelectedDoctorPage } from '../pages/selected-doctor/selected-doctor';
 
 @Component({
-  templateUrl: 'app.html'
+  templateUrl: 'app.html',
 })
 export class MyApp {
   rootPage:any = HomePage;
